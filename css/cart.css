@@ -1,0 +1,227 @@
+html{
+	height: 100%;
+}
+
+
+header{
+	height: 28px;
+	background: #fafafa;
+}
+
+header .header-container{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.header-container .ul-1{
+	float: left;
+	margin-top: 8px;
+}
+
+.header-container .ul-2{
+	float: right;
+	margin-top: 8px;
+}
+
+.header-container .ul-1 li{
+	float: left;
+	padding-left: 12px;
+	margin-right: 12px;
+	line-height: 100%;
+	color: #333;
+}
+
+.ul-1 .exit{
+	color: #00f;
+}
+
+.header-container .ul-2 li{
+	position: relative;
+    float: left;
+    padding-left: 10px;
+    margin-left: 10px;
+	line-height: 10px;
+}
+
+.header-container li a{
+	color: #333;
+}
+
+.header-container li a:hover{
+	color: #d00;
+}
+
+
+section{
+	margin: 0 0 20px 0;
+    border-bottom: 2px solid #F3EBEB;
+}
+
+.sec-container{
+	width: 1190px;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+    height: 72px;
+}
+
+.sec-container .logo{
+	width: 260px;
+	float: left;
+}
+
+.sec-container .liucheng{
+	width: 446px;
+	float: right;
+}
+
+aside{
+	padding-top: 20px;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+aside .cart-title{
+	height: 32px;
+	font-size: 20px;
+	font-weight: 900;
+	color: #000;
+}
+
+.cart{
+	width: 100%;
+	background: #e5e5e5;
+}
+
+
+
+
+.top-btn{
+	position: fixed;
+	width: 73px;
+    right: 40px;
+    bottom: 10px;
+    padding-bottom: 73px;
+	z-index: 999;
+}
+
+.top-btn a{
+	margin-bottom: 1px;
+}
+
+.btn-kefu{
+	display: block;
+	background: #fbb01f;
+}
+.btn-kefu:hover{
+	background: #c73339;
+}
+
+.btn-phone{
+	display: block;
+	background: #d71921;
+}
+
+.btn-phone .phone{
+	background-color: #c73339;
+    position: absolute;
+	width: 160px;
+	height: 73px;
+    left: -160px;
+    top: 74px;
+    line-height: 73px;
+    color: #FFF;
+    font-size: 18px;
+	text-align: center;
+	display: none;
+}
+
+.btn-phone:hover .phone{
+	display: block;
+}
+
+.btn-top{
+	display: block;
+	background: #666666;	
+}
+.btn-top:hover{
+	background: #444444;
+}
+
+
+
+
+td{
+	padding: 15px 0;
+	line-height: 100%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.head-tr td{
+	background: rgba(245, 245, 245, 0.8);
+	color: #000;
+	font-weight: 700px;
+	text-align: center;
+}
+
+.prod-tr td{
+	background:#fff0e7;
+}
+
+.prod-tr img{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.p-del a{
+	border: 1px solid #666666;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

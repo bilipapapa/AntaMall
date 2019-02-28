@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img{
+				display: block;
+				border: none;
+			}
+			#wrap{
+				position: relative;
+			}
+			#wrap div{
+				position: absolute;
+				width: 225px;
+				border: 1px solid #CECECE;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div><img src="img2/1.jpg"></div>
+			<div><img src="img2/3.jpg"></div>
+			<div><img src="img2/5.jpg"></div>
+			<div><img src="img2/7.jpg"></div>
+			<div><img src="img2/2.jpg"></div>
+			<div><img src="img2/2.jpg"></div>
+			<div><img src="img2/5.jpg"></div>
+			<div><img src="img2/9.jpg"></div>
+			<div><img src="img2/1.jpg"></div>
+			<div><img src="img2/6.jpg"></div>
+			<div><img src="img2/4.jpg"></div>
+			<div><img src="img2/8.jpg"></div>
+			<div><img src="img2/1.jpg"></div>
+			<div><img src="img2/6.jpg"></div>
+			<div><img src="img2/4.jpg"></div>
+			<div><img src="img2/8.jpg"></div>
+		</div>
+		<script type="text/javascript">
+			var oWrap = document.getElementById("wrap");
+			var aItems = oWrap.children;
+			var mt = ml = 10;//margin-top margin-left
+			/* 每一列的宽度 */
+			var pw = aItems[0].offsetWidth+ml;
+			var data = ["img2/1.jpg","img2/2.jpg","img2/3.jpg","img2/4.jpg","img2/5.jpg","img2/6.jpg","img2/7.jpg"];
+			window.onresize =window.onload = function(){
+				var cw = document.documentElement.clientWidth;
+				//求出有多少列
+				var cols = Math.floor(cw/pw);
+				var arrHei = [];//保存每一列的高度
+				//排出前cols个区块
+				for(var i = 0; i < cols; i++){
+					aItems[i].style.left = i*pw + "px";
+					aItems[i].style.top = 0;
+					arrHei.push(aItems[i].offsetHeight);
+				}
+				//求最小值，以及最小值对应的索引
+				//排列剩余区块
+				for(var j = cols; j < aItems.length; j++){
+					var minVal = Math.min.apply(null,arrHei);
+					var minIndex = arrHei.indexOf(minVal);
+					aItems[j].style.left = aItems[minIndex].style.left;
+					aItems[j].style.top = minVal + mt + "px";
+					arrHei[minIndex] += aItems[j].offsetHeight + mt; 
+
+				}
+				//滚动滚动条时，加载数据
+				var count=0;
+				window.onscroll=function(){
+					var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
+					var ch=document.documentElement.clientHeight;
+					
+					for(let k=0;k<cols;k++){
+						if(ch+scrollTop>=arrHei[k]){
+							var oDiv = document.createElement("div");
+							oWrap.appendChild(oDiv);
+							var oImg = document.createElement("img");
+							// oImg.src = data[k];
+							oImg.src = data[count];
+							count++;
+							if(count==data.length){
+								count=0;
+							}
+							oDiv.appendChild(oImg);
+							var minVal = Math.min.apply(null,arrHei);
+							var minIndex = arrHei.indexOf(minVal);
+							oDiv.style.left=minIndex*pw+"px";
+							oDiv.style.top=minVal+ mt+"px";
+							arrHei[minIndex] += oDiv.offsetHeight+ mt;
+						}
+					}
+				}
+			}
+			
+		</script>
+	</body>
+</html>

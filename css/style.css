@@ -1,0 +1,415 @@
+html{
+	overflow-x: hidden;
+}
+
+.banner{
+	width: 7680px;
+	height: 500px;
+	position: relative;
+	z-index: 0;
+}
+.banner article{
+	width: 100%;
+	overflow: hidden;
+}
+
+.banner ul{
+	position: absolute;
+}
+
+.banner ul li{
+	float: left;
+}
+
+.banner btn span{
+	position: absolute;
+	cursor: pointer;
+}
+
+.btn-left{
+	left: 110px;
+	top: 255px;
+}
+.btn-right{
+	left: 1350px;
+	top: 255px;
+}
+
+jio{
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin: 10px 0;
+}
+.biao{
+	width: 120px;
+	height: 30px;
+	color: #fff;
+	background: #4d4d4d;
+	padding: 0 10px;
+	line-height: 30px;
+	/* opacity: 0.7; */
+	margin: -1px;
+	display: inline-block;
+	border-right: 1px #969171 solid;
+}
+
+.biao:first-child{
+	background: #e74d4d;
+}
+
+.big-show{
+	width: 100%;
+	height: 880px;
+	background: #f3f3f3;
+	padding: 30px 0;
+}
+
+.big-show ul{
+	width: 1190px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+.big-show .item-1{
+	height: 480px;
+    width: 580px;
+    margin-right: 15px;
+	margin-bottom: 40px;
+	float: left;
+    position: relative;
+}
+
+.item-1 .overburden{
+	width: 100%;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.item-1 .overburden .a-btn{
+	width: 110px;
+	height: 40px;
+	left: 40%;
+	top: 180px;
+	border:1px solid white;
+	position: absolute;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 0.3;
+	display: block
+}
+
+.item-1 h3{
+	text-align: center;
+    font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.item-1 span{
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+
+.item-1 span a{
+	font-size: 14px;
+	margin: 0 5px;
+	color: #333;
+}
+
+.item-1 span a:hover{
+	color: #d00;
+}
+
+.big-show .item-2{
+	height: 370px;
+    width: 385px;
+	margin-right: 10px;
+	float: left;
+    position: relative;
+}	
+
+.item-2 .overburden{
+	width: 100%;
+	height: 310px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.item-2 .overburden .a-btn{
+	width: 110px;
+	height: 40px;
+	left: 35%;
+	top: 140px;
+	border:1px solid white;
+	position: absolute;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 0.3;
+}
+
+.item-2 h3{
+	text-align: center;
+    font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+
+
+.product-selection{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.product-title{
+	text-align: center;
+    height: 100px;
+    padding: 40px 0 30px;
+}
+
+.product-title h4{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.product-title h4 a{
+	font-size: 26px;
+    line-height: 35px;
+	font-weight: normal;
+	color: #333;
+}
+
+.product-title h2 a{
+	font-size: 32px;
+    font-weight: bolder;
+	line-height: 50px;
+	color: #333;
+}
+
+
+
+
+.prod-ads{
+	width: 1190px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	height: 557px;
+}
+
+.slider-container{
+	margin-right: 15px;
+	float: left;
+}
+
+.slider-box{
+	width: 580px;
+    height: 406px;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+}
+
+.slider-box ul{
+	width: 580px;
+    height: 406px;
+}
+
+.slider-box ul li{
+	position: absolute;
+}
+
+.slider-box ul section{
+	position: absolute;
+	bottom: 10px;
+    left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.slider-box ul section span{
+	height: 10px;
+    width: 10px;
+    border: 1px #ccc solid;
+    background: #222;
+    border-radius: 50%;
+	opacity: .7;
+	margin: 0 5px;
+	display: inline-block;
+}
+
+.slider-box ul section span:first-child{
+	background:#eee;
+}
+
+.slider-box ul .btn2-left{
+	position: absolute;
+	top: 175px;
+	left: 35px;
+	display: none;
+}
+
+.slider-box ul .btn2-right{
+	position: absolute;
+	top: 175px;
+	right: 35px;
+	display: none;
+}
+
+.slider-box p:nth-last-child(2n+1){
+	font-size: 26px;
+	margin-top: 20px;
+	text-align: center;
+    line-height: 30px;
+    margin: 4px 0;
+}
+
+.slider-box p:nth-last-child(2){
+	text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 4px 0;
+}
+
+.slider-box-btn{
+	border: 1px solid #000;
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    width: 104px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    outline: none;
+	position: relative;
+	color: #000;
+}
+
+
+
+/* 首页商品列表 */
+aside {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+aside .ibox{
+    position: relative;
+    margin: 8px 8px 15px 0;
+    height: 350px;
+	width: 289px;
+	float: left;
+	
+}
+
+.ibox .ibox-extend{
+	border-color: #f3f3f3;
+	padding-bottom: 20px;
+	background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 288px;
+    border: 2px #fff solid;
+}
+
+.ibox .ibox-extend a img:hover{
+	transform: translateY(-5px) scale(1.03);
+	transition: 0.3s;
+}
+
+aside .S-ul{
+	height: 32px;
+    width: 180px;
+    overflow: hidden;
+	margin-top: 10px;
+	padding: 0 54px;
+	/* display: none; */
+}
+
+aside .S-ul li{
+	margin: 0 1px;
+	display: inline-block;
+    line-height: 30px;
+}
+
+aside .S-ul img{
+	height: 30px;
+    width: 30px;
+    overflow: hidden;
+    border: 1px #ddd solid;
+}
+
+.span-info{
+	display: block;
+    text-align: center;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.span-price-info{
+    display: block;
+    text-align: center;
+    background: #fff;
+	color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.span-price{
+	color: #666;
+    font-size: 16px;
+}
+
+.div-S-pic p{
+	position: relative;
+	text-align: center;
+	display: none;
+}
+
+.div-S-pic p a{
+	border: 1px solid #ddd;
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    outline: none;
+	position: relative;
+	color: #000;
+}
+.div-S-pic p a:hover{
+	background: #d00;
+	color: #fff;
+}
+
+
+
+
+
+

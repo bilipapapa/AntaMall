@@ -1,0 +1,254 @@
+.details-frame{
+	width: 1340px;
+	margin: 20px auto 0;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.details-frame article{
+	width: 740px;
+	height: 655px;
+	float: left;
+	overflow: hidden;
+}
+
+.details-frame .ul-pic{
+	height: 600px;
+	float: left;
+	overflow: hidden;
+}
+
+.details-frame .ul-pic li{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.details-pic{
+	display: block;
+	width: 98px;
+	height: 98px;
+	border: 2px solid #fff;
+}
+
+.details-pic:hover{
+	border: 2px solid #e5e5e5;
+}
+
+.pic-click{
+	border: 2px solid #e5e5e5;
+}
+
+.big-pic{
+	float: right;
+	width: 600px;
+	height: 600px;
+}
+
+.bottom{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.details-frame article span{
+	display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+	
+}
+
+aside{
+	float: right;
+	height: 450px;
+	padding-left: 20px;
+}
+
+aside h1{
+	color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+	height: 50px;
+	word-wrap: break-word;
+	width: 570px;
+}
+
+.pro-head span{
+	margin-top: 5px;
+	float: right;
+	font-size: 14px;
+}
+
+
+.pro-head .pro-head-span-stars{
+	height: 16px;
+	width: 60px;
+	background: url(/img/stars.png) no-repeat;
+	float: left;
+}
+
+.big-pro-sale{
+	width: 570px;
+}
+
+aside .sale-price{
+	color: red;
+	font-size: 20px;
+}
+
+aside .sale-price span{
+	font-size: 30px;
+}
+
+.discount{
+	color: #999;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.sale-info{
+	padding: 27px 20px;
+	background: #eeeeee url(/img/onsale_02.png) no-repeat 5px 2px;
+	overflow: hidden;
+}
+
+.sale-info a{
+	display: block;
+	color: #c40000;
+	font-size: 16px;
+}
+
+.sale-color p{
+	line-height: 40px;
+    color: #666464;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.sale-color img{
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-bottom: 3px;	
+}
+
+.sale-size span{
+	width: 120px;
+	float: left;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.sale-size>a{
+	width: 120px;
+	float: left;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.sale-size ul{
+	display: block;
+	height: 40px;
+}
+
+.sale-size ul li{
+	float: left;
+	padding-right: 10px;
+}
+
+.sale-size ul a{
+	color: #666464;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    width: 100%;
+	font-size: 18px;
+	border: 1px solid #666464;
+	margin-right: 6px;
+}
+
+.sumbox{
+	border:1px solid #666464;
+	width: 120px;
+	height: 40px;
+	float: left;
+	display: block;
+}
+
+.sumbox span{
+	line-height: 40px;
+	font-size: 16px;
+	width: 60px;
+	float: left;
+}
+
+.sumbox .number{
+	width: 60px;
+	float: right;
+	height: 40px;
+	border: 0;
+	font-size: 20px;
+}
+
+.buy{
+	float: left;
+	width: 450px;
+}
+
+.buy input{
+	display: block;
+	float: left;
+}
+
+.buy .into-cart{
+	width: 120px;
+	height: 42px;
+	margin-left: 10px;
+	display: block;
+	line-height: 42px;
+	text-align: center;
+	float: left;
+	border: 1px solid #fff;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+.buy .buy-now{
+	width: 120px;
+	height: 42px;
+	margin-left: 10px;
+	display: block;
+	line-height: 42px;
+	text-align: center;
+	float: left;
+	border: 1px solid #fff;
+	background: #dd0000;
+	color: #fff;
+}
+
+.details-frame h3{
+	font-size: 14px;
+	color: #515151;
+	margin-bottom: 10px;	
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.p-bottom{
+	color: #b1b1b1;
+    font-size: 14px;
+    line-height: 18px
+}
+
+

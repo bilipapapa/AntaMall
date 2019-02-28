@@ -1,0 +1,195 @@
+body{
+	background: #f9f9f9;
+}
+
+.layout{
+	overflow: hidden;
+	background-color: #fff;
+    width: 854px;
+    margin: 0 auto 20px;
+    position: relative;
+    min-height: 620px;
+}
+
+.logo{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.logo img{
+	margin: 0 auto;
+}
+
+.login-box{
+	width: 358px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#username{
+	width: 326px;
+    padding: 13px 16px 13px 14px;
+	display: block;
+	color: #333;
+	margin: 20px 0 14px;
+	border:1px solid #e0e0e0;
+	font-size: 12px;
+}
+
+.reg-user{
+	color: red;
+	line-height: 14px;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#password{
+	width: 326px;
+    padding: 13px 16px 13px 14px;
+	display: block;
+	font-size: 12px;
+	border:1px solid #e0e0e0;
+	margin-bottom: 14px;
+	}
+
+.dis-box{
+	margin-bottom: 5px;
+    line-height: 20px;
+    color: #d71921;
+    /* display: none; */
+}
+
+#login-button{
+	width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+	margin-bottom: 29px;
+	margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+	cursor: pointer;
+	background: #d71921;
+	border: 0;
+}
+
+.login-style-fieldset{
+	border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+legend{
+	font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-style-icon{
+	padding-top: 10px;
+    text-align: center;
+}
+
+.custom-choice{
+	padding-top: 30px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.custom-choice a{
+	padding: 0 9px;
+	font-size: 14px;
+	color: #757575;
+}
+
+.custom-choice a:hover{
+	color: #d00;
+}
+
+
+
+.footer{
+	color: #757575;
+	text-align: center;
+	background: #f9f9f9;
+}
+
+.footer p a{
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.top-btn{
+	position: fixed;
+	width: 73px;
+    right: 40px;
+    bottom: 10px;
+    padding-bottom: 73px;
+	z-index: 999;
+}
+
+.top-btn a{
+	margin-bottom: 1px;
+}
+
+.btn-kefu{
+	display: block;
+	background: #fbb01f;
+}
+.btn-kefu:hover{
+	background: #c73339;
+}
+
+.btn-phone{
+	display: block;
+	background: #d71921;
+}
+
+.btn-phone .phone{
+	background-color: #c73339;
+    position: absolute;
+	width: 160px;
+	height: 73px;
+    left: -160px;
+    top: 74px;
+    line-height: 73px;
+    color: #FFF;
+    font-size: 18px;
+	text-align: center;
+	display: none;
+}
+
+.btn-phone:hover .phone{
+	display: block;
+}
+
+.btn-top{
+	display: block;
+	background: #666666;	
+}
+.btn-top:hover{
+	background: #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
